@@ -9,13 +9,14 @@ def deal_card
   rand(1..11)
 end
 
-def display_card_total(n)
+def display_card_total(card_total)
   # code #display_card_total here
-  puts "Your cards add up to #{n}"
+  puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
   # code #prompt_user here
+  hit_stay = gets.
 end
 
 def get_user_input
