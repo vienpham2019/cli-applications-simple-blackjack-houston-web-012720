@@ -67,7 +67,8 @@ end
 def runner
   # code runner here
   welcome
-  while initial_round < 22 do
-    initial_round = hit?()
+  current_total = initial_round
+  while current_total < 22 do
+    current_total = hit?(current_total)
 end
     
