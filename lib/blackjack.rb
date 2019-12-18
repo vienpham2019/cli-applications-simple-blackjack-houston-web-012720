@@ -40,7 +40,7 @@ def initial_round
 end
 
 def hit?(card_total)
-  binding.pry
+ 
   # code hit? here
   prompt_user
   input = get_user_input
