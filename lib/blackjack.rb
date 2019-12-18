@@ -68,6 +68,6 @@ def runner
   # code runner here
   welcome
   while initial_round < 22 do
-    hit?
+    initial_round = hit?()
 end
     
