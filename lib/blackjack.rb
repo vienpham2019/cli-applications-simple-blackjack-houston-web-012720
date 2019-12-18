@@ -34,7 +34,7 @@ end
 def initial_round
   binding.pry
   # code #initial_round here
-  card1 = deal_card
+  deal_card
   
 end
 
