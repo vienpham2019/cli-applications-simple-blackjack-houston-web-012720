@@ -11,7 +11,7 @@ end
 
 def display_card_total(card_num)
   # code #display_card_total here
-  card_total = (card_num += deal_card)
+  card_total += card_num
   puts "Your cards add up to #{card_total}"
 end
 
