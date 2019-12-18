@@ -49,7 +49,6 @@ def hit?(card_total)
   elsif input == "s"
     card_total
   else
-    "Please enter a valid command"
     invalid_command
   end
 end
