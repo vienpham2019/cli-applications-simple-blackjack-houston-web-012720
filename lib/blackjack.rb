@@ -32,8 +32,10 @@ def end_game(card_total)
 end
 
 def initial_round
+  binding.pry
   # code #initial_round here
-  
+  card_1 = deal_card
+  card_2 = deal_card
 end
 
 def hit?
