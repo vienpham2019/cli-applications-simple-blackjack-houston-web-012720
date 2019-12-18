@@ -4,8 +4,7 @@ def welcome
   puts "Welcome to the Blackjack Table"
 end
 
-def deal_card
-  binding.pry
+def deal_cardexit!
   # code #deal_card here
   rand(1..11)
 end
