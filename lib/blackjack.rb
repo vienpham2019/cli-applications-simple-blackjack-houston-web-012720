@@ -11,8 +11,7 @@ end
 
 def display_card_total(n)
   # code #display_card_total here
-  card_total = n
-  puts "Your cards add up to #{card_total}"
+  puts "Your cards add up to #{n}"
 end
 
 def prompt_user
