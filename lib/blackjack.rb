@@ -55,6 +55,7 @@ end
 
 def invalid_command
   # code invalid_command here
+  puts "Sorry, not a valid command"
   get_user_input
 end
 
